@@ -1,0 +1,6 @@
+Minsk;Minsk;4
+Grodno;Oktiabriskaja;2
+Minsk;Oktiabriskaja;4
+Grodno;Sovetskaja;4
+Minsk;Jubileinaja;3
+Baranovichi;Gorizont;3

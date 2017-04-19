@@ -1,0 +1,8 @@
+﻿  TetraMAIN.cpp
+g:\новая папка\прога\программирование\winapi\tetris\tetramain.cpp(114): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(637): note: see declaration of '_itoa'
+g:\новая папка\прога\программирование\winapi\tetris\tetramain.cpp(116): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(637): note: see declaration of '_itoa'
+TetraMAIN.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Tetris.vcxproj -> G:\Новая папка\Прога\Программирование\WinApi\Tetris\Debug\Tetris.exe
+  Tetris.vcxproj -> G:\Новая папка\Прога\Программирование\WinApi\Tetris\Debug\Tetris.pdb (Full PDB)

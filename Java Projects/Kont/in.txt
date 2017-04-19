@@ -1,0 +1,7 @@
+6
+Minsk; Minsk; 4
+Minsk; Jubileinaja; 3
+Grodno; Oktiabriskaja; 2
+Minsk; Oktiabriskaja;  4
+Minsk; Sputnik; 3
+Grodno; Sovetskaja; 4

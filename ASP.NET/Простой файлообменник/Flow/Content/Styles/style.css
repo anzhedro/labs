@@ -1,0 +1,239 @@
+boby{
+  background-image: url("C:\Users\Горлачёв Никита\Documents\Visual Studio 2013\Projects\Flow\Flow\Content\Images\AuthorizationBackground.jpg");
+    font-family: 'Lato', Calibri, Arial, sans-serif
+}
+.tableAuthorization{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    left: 43.5%;
+    margin: auto;
+    position: absolute;
+    border: 1px solid #929292;
+    padding:  10px ;
+    background-image: url('Content/Images/FormAuthBG2.jpg');
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 0 black ;
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    -webkit-text-stroke: 2px white;
+    font-size: 48px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    -webkit-text-stroke: 0.3px white;
+    font-size: 22px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+   
+    margin: auto;
+}
+.AuthorizationInput{
+    text-align: center;
+}
+.AuthorizationButtonL, .AuthorizationButtonR{
+    text-align: center;
+    background-color: rgba(118, 230, 246, 0.51);
+    border-radius: 5px;
+}
+.PersonListTable{
+    margin: auto;
+    font-size: 20px;
+    top: 20%;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: 15px;
+    border-top:  solid 4px lightskyblue;
+    border-bottom: solid 4px lightskyblue;
+}
+.PersonListTable tr:hover{
+    /*background: #f3bd48;
+    color: #fff;*/
+}
+.bPersonList{
+    background-image: url("~/Content/Images/AuthorizationBackground.jpg");
+ }
+.PersonListButtonUp{
+    width:100px;
+    border:2px solid #ccc;
+    background: #86a0f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    right: 50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+
+}
+.PersonListButtonUp:hover{
+    text-decoration: underline;
+}
+.hPersonList{
+    text-align: center;
+    font-family: fantasy;
+    -webkit-text-stroke: 1px white;
+    margin: auto;
+}
+.Modification{
+    border: 0px solid #0a3c59;
+    background: #76e6f6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+    background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+    background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+    background: -o-linear-gradient(top, #65a9d7, #3e779d);
+    background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+    padding: 2px 4px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    text-shadow: #7ea4bd 0 1px 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.Modification:hover{
+    border: 0px solid #0a3c59;
+    text-shadow: #829980 0 1px 0;
+    background: #3e779d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+    background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+    background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+    background: -o-linear-gradient(top, #65a9d7, #3e779d);
+    background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+    color: #750875;
+}
+.Modification:active{
+    text-shadow: #1e4158 0 1px 0;
+    border: 5px solid #0a3c59;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+    color: #fff;
+}
+.RegistrationForm{
+    margin: auto;
+    font-size: 20px;
+    top: 20%;
+    width: 20%;
+    padding:  10px ;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: 15px;
+    border-top:  solid 4px lightskyblue;
+    border-bottom: solid 4px lightskyblue;
+}
+.simple-little-table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	text-align: center;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin : auto;
+	border:#ccc 1px solid;
+	border-collapse:separate;
+ 
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+ 
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+ 
+.simple-little-table th {
+	font-weight:bold;
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+ 
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+.simple-little-table th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+.simple-little-table tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+.simple-little-table tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+.simple-little-table tr{
+	text-align: center;
+	padding-left:20px;
+}
+.simple-little-table tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+.simple-little-table tr td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.simple-little-table tr:nth-child(even) td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+.simple-little-table tr:last-child td{
+	border-bottom:0;
+}
+.simple-little-table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.simple-little-table tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+    .simple-little-table a:link {
+        color: #666;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }

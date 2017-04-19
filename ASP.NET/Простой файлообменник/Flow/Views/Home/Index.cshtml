@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title></title>
+    @*<link rel="stylesheet" href="" type="text/css">*@
+    <link href="~/Content/Styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Authorization</h1>
+    <form method="post" action="/Home/LogIn">
+
+        <table border="0" class="tableAuthorization">
+            <tr>
+                <td>Login(email)</td>
+                <td><input type="text" class="AuthorizationInput" name="Login"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" class="AuthorizationInput" name="Password"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+
+                    <input type="submit" value="Log in" class="AuthorizationButtonL" name="ButtonLogIn">
+
+                    <section>If you do not have an account please register<a href="/Home/FollowLinkRegistration"> please register</a></section>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

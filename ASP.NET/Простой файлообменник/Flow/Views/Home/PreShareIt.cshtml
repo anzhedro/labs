@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "PreShareIt";
+}
+
+<h2>With whom?</h2>
+<link rel="stylesheet" href="~/Content/Styles/style.css" type="text/css">
+
+
+
+    <form method="post" action=" /Home/ShareIt">
+        <input name="LogOff" type="submit" value="Log off" class="AuthorizationButtonL" name="ButtonLogIn">
+        <table border="0" class="PersonListTable">
+
+            <tr>
+                <th colspan="2"><h2>Your friend</h2></th>
+                <th colspan="2"><h2>Action</h2></th>
+            </tr>
+
+
+
+
+            @foreach (Flow.Models.Person b in ViewBag.preShare)
+            {
+                <tr align="center">
+
+                    <td colspan="2">@b.Login</td>
+                    <td colspan="2"><input type="submit" name="@b.Login" id="SubmitSingle" value="Share it" /></td>
+                </tr>
+            }
+
+        </table>
+    </form>
+    @*<h3>Upload file</h3>
+    <h3>
+        @using (Html.BeginForm("Upload", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+
+            <input type="file" name="fileUpload" /><br />
+
+            <input type="submit" name="Submit" id="SubmitSingle" value="Upload" />
+
+
+        }
+    </h3>
+    </body>
+
+    @foreach (Flow.Models.Person b in ViewBag.preShare)
+    {
+        <tr align="center">
+
+            <td colspan="1">@b.Login</td>
+            
+        </tr>
+    }
+
+</table>*@

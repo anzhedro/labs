@@ -1,0 +1,18 @@
+
+			Иерархия классов
+
+
+	AbstractContainer			AbstractIterator
+	|          					|
+	+-- AbstractStack			+-- ArrayStackIterator
+    |   |   					|
+    |   |   					+-- ListStackIterator
+	|   |					    |
+	|   +-- ArrayStack			+-- ArrayQueueIterator
+	|   |   
+	|   +-- ListStack
+	|
+	+-- AbstractQueue
+	    |
+	    +-- ArrayQueue
+	    	

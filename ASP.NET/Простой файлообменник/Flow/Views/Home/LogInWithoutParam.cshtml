@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "LogIn";
+}
+
+<h1> :: Personal account :: </h1>
+<link rel="stylesheet" href="~/Content/Styles/style.css" type="text/css">
+
+
+
+<form method="post" action=" /Home/PreShareIt">
+    <input name="LogOff" type="submit" value="Log off" class="AuthorizationButtonL" name="ButtonLogIn">
+    <table border="0" class="PersonListTable">
+
+        <tr>
+            <th colspan="2"><h2>Your documents</h2></th>
+            <th colspan="4"><h2>Avaliable actions</h2></th>
+        </tr>
+
+
+
+
+        @foreach (FileInfo b in ViewBag.Files)
+        {
+            <tr align="center">
+
+                <td colspan="2">@b.Name</td>
+                <td colspan="2"><a download href="~/Content/Reposity/@ViewBag.User/@b.Name">Download</a></td>
+                <td colspan="2"><input type="submit" name="@b.Name" id="" value="Share it" /></td>
+            </tr>
+        }
+
+    </table>
+</form>
+<h3>Upload file</h3>
+<h3>
+    @using (Html.BeginForm("Upload", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+
+        <input type="file" name="fileUpload" /><br />
+
+        <input type="submit" name="Submit" id="SubmitSingle" value="Upload" />
+
+
+    }
+</h3>

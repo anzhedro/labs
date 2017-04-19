@@ -1,0 +1,73 @@
+6
+Anton Zakharenkov 2
+1 4
+GA Matveev 5
+History Zelinsky 7
+MA Syroid 5
+Proga Karpovich 6
+2 5
+English Stahanova 8
+Proga Pazura 8
+MA Mazanik 7
+GA Matveev 7
+UP Pazura 9
+Nikita Gorlachev 2
+1 4
+GA Matveev 5
+History Zelinsky 5
+MA Syroid 7
+Proga Karpovich 6
+2 5
+English Stahanova 8
+Proga Pazura 7
+MA Mazanik 7
+GA Matveev 8
+UP Pazura 8
+Ivan Ivanov 2
+1 4
+GA Matveev 2
+History Zelinsky 5
+MA Syroid 9
+Proga Karpovich 4
+2 5
+English Stahanova 6
+Proga Pazura 4
+MA Mazanik 2
+GA Matveev 2
+UP Pazura 5
+Zhen Androsik 2
+1 4
+GA Matveev 5
+History Zelinsky 5
+MA Syroid 6
+Proga Karpovich 6
+2 5
+English Stahanova 8
+Proga Pazura 8
+MA Mazanik 4
+GA Matveev 4
+UP Pazura 10
+Vlad Baboshko 2
+1 4
+GA Matveev 4
+History Zelinsky 8
+MA Syroid 4
+Proga Karpovich 6
+2 5
+English Stahanova 8
+Proga Pazura 8
+MA Mazanik 6
+GA Matveev 5
+UP Pazura 8
+Jake Loiko 2
+1 4
+GA Matveev 2
+History Zelinsky 5
+MA Syroid 2
+Proga Karpovich 4
+2 5
+English Stahanova 8
+Proga Pazura 4
+MA Mazanik 4
+GA Matveev 2
+UP Pazura 4
